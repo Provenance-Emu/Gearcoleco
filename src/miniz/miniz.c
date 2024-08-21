@@ -2986,7 +2986,7 @@ void tinfl_decompressor_free(tinfl_decompressor *pDecomp)
 #ifndef MINIZ_NO_ARCHIVE_APIS
 
 #ifdef __cplusplus
-extern "C" {
+//extern "C" {
 #endif
 
 /* ------------------- .ZIP archive reading */
@@ -7727,7 +7727,7 @@ mz_bool mz_zip_end(mz_zip_archive *pZip)
 }
 
 #ifdef __cplusplus
-}
+//}
 #endif
 
 #endif /*#ifndef MINIZ_NO_ARCHIVE_APIS*/
